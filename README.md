@@ -33,5 +33,5 @@ Welcome to my little corner of GitHub. Here’s where I break stuff, fix it (som
 I love making things that look cool and work even better. If it has smooth animations, fluid UI, or a satisfying click sound, I’m probably interested.  
 
 ### 💬 Let’s Connect!  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)  
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-profile)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gin%C3%A9s-mart%C3%ADnez-ruiz-696b45354/)  
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/ErGineh)  
