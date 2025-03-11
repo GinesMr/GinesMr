@@ -6,7 +6,6 @@ Welcome to my little corner of GitHub. Here’s where I break stuff, fix it (som
 - 🔥 Currently working on projects involving **Java, Python, and AI**.  
 - 🤖 Exploring **machine learning**—turns out, computers can learn faster than me.  
 - 💻 Building **Android apps in Kotlin** and developing **desktop apps with JavaFX**.  
-- 🛠️ Also dealing with **Odoo**, because why not?  
 - ⚡ Passionate about software that actually works (most of the time).  
 
 ### ⚡ Tech I Use & Abuse  
