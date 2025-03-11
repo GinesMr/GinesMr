@@ -28,9 +28,7 @@ Welcome to my little corner of GitHub. Here’s where I break stuff, fix it (som
 
 ### ☕ Fuel for Coding  
 - Coffee is my debugging tool.  
-- Dark mode everything.  
-- If it works, don’t touch it (unless you really have to).  
-
+  
 ### 🎯 Fun Fact  
 I love making things that look cool and work even better. If it has smooth animations, fluid UI, or a satisfying click sound, I’m probably interested.  
 
