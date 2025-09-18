@@ -55,15 +55,6 @@ Currently working on **Valena WMS**, a warehouse management system integrated wi
 - **Security**: JWT authentication, encryption, access control
 - **Embedded Systems**: ESP32, Jetson Nano, FreeRTOS, TinyML, MQTT, voice control
 - **IoT & Robotics**: Home automation, sensor integration, real-time systems
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GinesMr&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GinesMr&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
-
 <div align="center">
   <a href="www.linkedin.com/in/ginés-martínez-ruiz-696b45354">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
