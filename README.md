@@ -1,12 +1,12 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:050816,45:4c1d95,100:06b6d4&text=Gin%C3%A9s%20Mart%C3%ADnez%20Ruiz&fontColor=ffffff&fontSize=42&fontAlignY=36&desc=AI%20Systems%20%C2%B7%20Agentic%20Engineering%20%C2%B7%20Local%20AI&descAlignY=58&animation=fadeIn" alt="Ginés Martínez Ruiz" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:050816,45:4c1d95,100:06b6d4&text=Gin%C3%A9s%20Mart%C3%ADnez%20Ruiz&fontColor=ffffff&fontSize=42&fontAlignY=36&desc=AI%20%2F%20Backend%20Engineer%20%C2%B7%20Agentic%20Systems&descAlignY=58&animation=fadeIn" alt="Ginés Martínez Ruiz — AI and Backend Engineer" />
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+the+system+around+the+model;Agents+%C2%B7+Context+%C2%B7+Tools+%C2%B7+Data+%C2%B7+Infrastructure;Private+AI+that+gets+real+work+done" alt="Typing introduction" /></a>
 
-**Building AI systems that connect models with real software, private data and enterprise infrastructure.**
+**Designing production AI systems that connect models with software, enterprise data and business operations.**
 
-`LLMs` · `AI Agents` · `MCP` · `RAG` · `Local AI` · `.NET` · `Python` · `Go`
+`.NET` · `AI Agents` · `MCP` · `RAG` · `Local AI` · `PostgreSQL` · `SAP`
 
 <br>
 
@@ -26,30 +26,30 @@
 <img src="https://media1.tenor.com/m/LkQzw7k5DV4AAAAd/anime-hacking.gif" width="390" alt="Anime hacker at work" />
 </div>
 
-I'm a software engineer focused on **AI systems and agentic architectures**.
+I'm an **AI / Backend Engineer focused on agentic systems**.
 
-I work on the layer between **LLMs and the real world**: orchestration, tools, MCP servers, RAG pipelines, vector databases, enterprise integrations and local inference.
+I engineer the system around the model: backend APIs, orchestration, tools, MCP servers, RAG pipelines, memory, databases, enterprise integrations and local inference.
 
-My background is in backend and application development, so I approach AI as an **engineering problem**, not just a prompting problem.
+My main backend stack is **C# / .NET**, supported by Python for AI and inference and Go for lightweight services and developer tooling. I approach AI as an **engineering problem**, not a prompting exercise.
 
 > **I don't just want models that can talk.**<br>
 > **I want models that can understand context, use tools, interact with systems and get real work done.**
 
 ```yaml
 focus:
-  - agentic AI systems
-  - local and privacy-first LLM infrastructure
-  - MCP, RAG and semantic retrieval
-  - tool calling and multi-agent orchestration
-  - ERP / SAP-connected agents
-  - local inference and edge AI
+  - production agentic systems
+  - AI orchestration and tool calling
+  - MCP and enterprise integrations
+  - RAG, memory and semantic retrieval
+  - local and privacy-first inference
+  - SAP / ERP-connected agents
 ```
 
 ---
 
 ## `> architecture`
 
-### Agentic systems
+### The model is one component
 
 Systems where the model is only one component of a larger architecture.
 
@@ -59,6 +59,10 @@ Systems where the model is only one component of a larger architecture.
                          └────────┬─────────┘
                                   │
                                   ▼
+                    ┌──────────────────────────┐
+                    │       BACKEND API        │
+                    └────────────┬─────────────┘
+                                 ▼
                     ┌──────────────────────────┐
                     │    AGENT ORCHESTRATOR    │
                     │                          │
@@ -75,7 +79,7 @@ Systems where the model is only one component of a larger architecture.
       └──────┬──────┘     └──────┬──────┘     └──────┬──────┘
              │                   │                   │
              ▼                   ▼                   ▼
-        ERP / SAP          PostgreSQL           External
+        ERP / SAP          PostgreSQL           APIs / DBs
         Services            pgvector             Systems
                                  │
                                  ▼
@@ -88,7 +92,7 @@ Systems where the model is only one component of a larger architecture.
 
 <div align="center">
 
-### Give models context, memory, tools and controlled access to real systems.
+### Models + Context + Agents + Tools + Data + Infrastructure
 
 </div>
 
@@ -105,7 +109,7 @@ Enterprise Data → ERP / SAP / SQL / APIs → Integration Layer
        → MCP + Tools + RAG → Agent Orchestration → LLM
 ```
 
-Not replacing existing systems. **Building an intelligent layer on top of them.**
+Not replacing existing systems. **Building an intelligent, controlled layer on top of them.**
 
 ---
 
@@ -163,19 +167,68 @@ Python · .NET · Go · PostgreSQL · Docker · Linux · Kubernetes · Observabi
 
 ```console
 gines@local-ai:~$ ./current_lab.sh
-[+] wiring models to tools and real systems
-[+] keeping inference close to private data
-[+] designing agents with explicit permissions
-[+] building beyond the demo
+[+] building GINESAI.API on .NET 10
+[+] designing Ontelia's enterprise intelligence layer
+[+] connecting agents to MCP, RAG, SAP and real tools
+[+] keeping private inference close to company data
 ```
 
-### What I'm building now
+### GINESAI.API
 
-- **Agent runtimes** — orchestration, memory, tool calling, guardrails and controlled write operations.
-- **MCP infrastructure** — secure bridges between models, databases, APIs and enterprise software.
-- **Private knowledge systems** — hybrid retrieval, pgvector, reranking and grounded answers with citations.
-- **Local AI pipelines** — Ollama, llama.cpp, quantized models, speech and multimodal automation.
-- **Enterprise agents** — intelligent layers over ERP, SAP, SQL and operational workflows.
+Reusable backend foundation for private AI agents and AI applications.
+
+```text
+.NET 10 · Minimal APIs · PostgreSQL · pgvector · Dapper · JWT
+```
+
+```text
+Api
+ ├── Auth / Users / Sessions / Chat
+ ├── Application Services
+ ├── Domain Rules
+ ├── AI Orchestration
+ │    ├── Agents
+ │    ├── Models
+ │    ├── Tools
+ │    ├── Memory
+ │    └── RAG
+ ├── MCP
+ └── Integrations
+      ├── SAP
+      ├── Ollama
+      └── LM Studio
+```
+
+The backend owns deterministic behavior and authorization. Agents reason. Tools perform controlled actions. Integrations communicate with external systems.
+
+### Ontelia
+
+Future AI company and platform for creating an **intelligent layer over company infrastructure**.
+
+```text
+                     ONTELIA
+                        │
+                  ORCHESTRATOR
+                        │
+          ┌─────────────┼─────────────┐
+          ▼             ▼             ▼
+         MCP           RAG          AGENTS
+          │             │             │
+          ▼             ▼             ▼
+      ERP / SAP      Knowledge     Workflows
+      Databases      Documents        APIs
+```
+
+Its direction is local-first enterprise AI for companies with sensitive data: private inference, business capabilities exposed as typed tools, and agents operating with explicit permissions.
+
+### Engineering right now
+
+- **Agent runtimes** — orchestration, routing, memory, structured output and confirmation flows.
+- **MCP infrastructure** — narrow, typed and permission-aware business capabilities.
+- **Private RAG** — PostgreSQL + pgvector, hybrid retrieval, reranking, tenant isolation and citations.
+- **Local inference** — Ollama, LM Studio, llama.cpp, GGUF and hardware-aware quantization.
+- **SAP agents** — controlled access to sales, inventory, operations and enterprise workflows.
+- **Production visibility** — traces, model/tool latency, tokens, errors and audit logs.
 
 <div align="center">
 
@@ -193,7 +246,8 @@ next_frontier:
   - advanced_rag
   - multi_agent_systems
   - inference_optimization
-  - enterprise_ai_architecture
+  - multimodal_and_edge_ai
+  - enterprise_semantic_layers
 ```
 
 <details>
@@ -213,15 +267,30 @@ These projects show where I came from; they are not necessarily under active dev
 ## `> cat philosophy.txt`
 
 ```text
-AI should be useful.
-AI should have context.
-AI should use tools.
-AI should integrate with existing systems.
-AI should respect private data.
-AI should survive outside the demo.
+What is deterministic?       → Backend code
+What requires reasoning?     → Agent / LLM
+What performs an action?     → Typed tool
+How is it exposed?           → MCP / Integration
+What knowledge is required?  → RAG / Database / API
+Where should data live?      → Local / Enterprise infrastructure
+What can cause harm?         → Authorization / Confirmation / Audit
 ```
 
-I care about architecture, maintainability and building things that can become **real products**, not isolated experiments.
+```text
+READ  → execute when authorized
+WRITE → validate, authorize, confirm when sensitive, then audit
+```
+
+Models never receive raw credentials or unrestricted SQL. Business capabilities should be narrow, typed, validated, permission-aware and observable.
+
+I optimize for **correctness, maintainability, architecture clarity, security and developer experience**—then performance and elegance, except where inference, streaming or retrieval changes the order.
+
+<div align="center">
+
+### The model is not the product.
+### The system around the model is the product.
+
+</div>
 
 ---
 
