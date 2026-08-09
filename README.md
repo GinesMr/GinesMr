@@ -12,11 +12,19 @@
 
 <img src="https://media1.tenor.com/m/N9tfR3_w9uYAAAAd/gojo-satoru-hollow-purple.gif" width="560" alt="Hollow Purple animation" />
 
+```text
+[ SYSTEM ONLINE ]  context loaded · tools armed · local models ready
+```
+
 </div>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%" alt="Animated divider" />
 
 ## `> whoami`
+
+<div align="right">
+<img src="https://media1.tenor.com/m/LkQzw7k5DV4AAAAd/anime-hacking.gif" width="390" alt="Anime hacker at work" />
+</div>
 
 I'm a software engineer focused on **AI systems and agentic architectures**.
 
@@ -105,7 +113,7 @@ Not replacing existing systems. **Building an intelligent layer on top of them.*
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=dotnet,python,go,flutter,postgres,mongodb,docker,kubernetes,linux,git,github,nginx&perline=12" alt="Technology stack" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,dotnet,go,postgres,docker,kubernetes,linux,git,github,nginx,azure&perline=12" alt="AI engineering stack" />
 
 <br><br>
 
@@ -120,30 +128,30 @@ Not replacing existing systems. **Building an intelligent layer on top of them.*
 <tr>
 <td valign="top" width="25%">
 
-### AI
+### Agents
 
-LLMs · AI Agents · MCP · RAG · Embeddings · Vector Search · Tool Calling · Local Inference
-
-</td>
-<td valign="top" width="25%">
-
-### Backend
-
-C# / .NET · Python · Go · REST · gRPC · Dapper · JWT · Microservices
+Agent runtimes · MCP · Tool Calling · Memory · Planning · Multi-agent Systems · Guardrails
 
 </td>
 <td valign="top" width="25%">
 
-### Data
+### Knowledge
 
-PostgreSQL · pgvector · SQL Server · SAP HANA · MongoDB · Semantic Search
+RAG · Embeddings · Hybrid Search · Reranking · pgvector · Grounding · Citations
 
 </td>
 <td valign="top" width="25%">
 
-### Systems
+### Inference
 
-Docker · Linux · Nginx · SAP Business One · Flutter · Git · CI/CD · Local Infrastructure
+Local LLMs · Ollama · llama.cpp · GGUF · Quantization · Speech · Multimodal AI
+
+</td>
+<td valign="top" width="25%">
+
+### Platform
+
+Python · .NET · Go · PostgreSQL · Docker · Linux · Kubernetes · Observability
 
 </td>
 </tr>
@@ -151,29 +159,54 @@ Docker · Linux · Nginx · SAP Business One · Flutter · Git · CI/CD · Local
 
 ---
 
-## `> ls selected-work/`
+## `> ./current_lab.sh`
 
-### [`AI Basic Studio`](https://github.com/GinesMr/GoAiBasicStudio)
+```console
+gines@local-ai:~$ ./current_lab.sh
+[+] wiring models to tools and real systems
+[+] keeping inference close to private data
+[+] designing agents with explicit permissions
+[+] building beyond the demo
+```
 
-**Local LLM terminal environment written in Go.** Terminal UI for interacting with local Ollama models through model discovery, contextual conversations and streamed generation.
+### What I'm building now
 
-`Go` · `Bubble Tea` · `Ollama` · `Local LLMs`
+- **Agent runtimes** — orchestration, memory, tool calling, guardrails and controlled write operations.
+- **MCP infrastructure** — secure bridges between models, databases, APIs and enterprise software.
+- **Private knowledge systems** — hybrid retrieval, pgvector, reranking and grounded answers with citations.
+- **Local AI pipelines** — Ollama, llama.cpp, quantized models, speech and multimodal automation.
+- **Enterprise agents** — intelligent layers over ERP, SAP, SQL and operational workflows.
 
-### `AI Agent Infrastructure`
+<div align="center">
 
-Architectures where an orchestrator connects a language model to MCP servers, enterprise databases, ERP systems, RAG knowledge bases, external APIs and local models—with a strong focus on **privacy, modularity and controlled write operations**.
+<img src="https://raw.githubusercontent.com/trinib/trinib/main/images/terminal.gif" width="430" alt="Animated hacker terminal" />
 
-### [`Orbit Wallet`](https://github.com/GinesMr/crypto_app) · [`Backend`](https://github.com/GinesMr/OrbitWalletBackend)
+</div>
 
-Non-custodial Ethereum wallet built with Flutter and Go, including wallet generation, blockchain interaction, transaction management and a dedicated backend architecture.
+### Current signal
 
-`Flutter` · `Go` · `Ethereum` · `REST`
+```yaml
+status: building
+mode: local_first
+obsession: useful_agents
+next_frontier:
+  - advanced_rag
+  - multi_agent_systems
+  - inference_optimization
+  - enterprise_ai_architecture
+```
 
-### `TerraEsphere`
+<details>
+<summary><b>Previous projects / origin story</b></summary>
+<br>
 
-IoT soil-monitoring system built with embedded hardware and sensors. **Winner of Spain's 2024 National Telecommunications Olympiad.**
+These projects show where I came from; they are not necessarily under active development.
 
-One of the experiences that pushed me toward systems where software, hardware and intelligence interact with the real world.
+- **[AI Basic Studio](https://github.com/GinesMr/GoAiBasicStudio)** — Local LLM terminal environment built with Go, Bubble Tea and Ollama.
+- **[Orbit Wallet](https://github.com/GinesMr/crypto_app)** · **[Backend](https://github.com/GinesMr/OrbitWalletBackend)** — Non-custodial Ethereum wallet built with Flutter and Go.
+- **TerraEsphere** — IoT soil-monitoring system and winner of Spain's 2024 National Telecommunications Olympiad.
+
+</details>
 
 ---
 
