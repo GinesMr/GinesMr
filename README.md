@@ -12,9 +12,7 @@
 
 <img src="https://media1.tenor.com/m/N9tfR3_w9uYAAAAd/gojo-satoru-hollow-purple.gif" width="560" alt="Hollow Purple animation" />
 
-```text
-[ SYSTEM ONLINE ]  context loaded · tools armed · local models ready
-```
+<img src="./assets/system-online.svg" width="760" alt="AI runtime system online" />
 
 </div>
 
@@ -22,8 +20,8 @@
 
 ## `> whoami`
 
-<div align="right">
-<img src="https://media1.tenor.com/m/LkQzw7k5DV4AAAAd/anime-hacking.gif" width="390" alt="Anime hacker at work" />
+<div align="center">
+<img src="https://media1.tenor.com/m/LkQzw7k5DV4AAAAd/anime-hacking.gif" width="480" alt="Anime hacker at work" />
 </div>
 
 I'm an **AI / Backend Engineer focused on agentic systems**.
@@ -53,41 +51,28 @@ focus:
 
 Systems where the model is only one component of a larger architecture.
 
-```text
-                         ┌──────────────────┐
-                         │       USER       │
-                         └────────┬─────────┘
-                                  │
-                                  ▼
-                    ┌──────────────────────────┐
-                    │       BACKEND API        │
-                    └────────────┬─────────────┘
-                                 ▼
-                    ┌──────────────────────────┐
-                    │    AGENT ORCHESTRATOR    │
-                    │                          │
-                    │  reasoning · context     │
-                    │  routing · tool calling  │
-                    └────────────┬─────────────┘
-                                 │
-             ┌───────────────────┼───────────────────┐
-             │                   │                   │
-             ▼                   ▼                   ▼
-      ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-      │     MCP     │     │     RAG     │     │    TOOLS    │
-      │   Servers   │     │  Knowledge  │     │ APIs / DBs  │
-      └──────┬──────┘     └──────┬──────┘     └──────┬──────┘
-             │                   │                   │
-             ▼                   ▼                   ▼
-        ERP / SAP          PostgreSQL           APIs / DBs
-        Services            pgvector             Systems
-                                 │
-                                 ▼
-                    ┌──────────────────────────┐
-                    │        LOCAL LLM         │
-                    │  Ollama · LM Studio      │
-                    │  llama.cpp · GGUF        │
-                    └──────────────────────────┘
+```mermaid
+flowchart TB
+    U([User]) --> API[Backend API]
+    API --> O[AI Orchestrator]
+    O --> A[Agent Runtime]
+    A --> M[MCP Client]
+    A --> R[RAG Pipeline]
+    A --> T[Tool Registry]
+    A <--> L[Model Provider]
+
+    M --> S[SAP / ERP]
+    M --> E[Enterprise Services]
+    R --> P[(PostgreSQL + pgvector)]
+    T --> X[APIs / Databases]
+    L --> LOCAL[Ollama · LM Studio · llama.cpp]
+
+    classDef core fill:#4c1d95,stroke:#a78bfa,color:#fff,stroke-width:2px;
+    classDef ai fill:#083344,stroke:#22d3ee,color:#fff,stroke-width:2px;
+    classDef data fill:#111827,stroke:#64748b,color:#fff;
+    class O,A core;
+    class M,R,T,L ai;
+    class API,S,E,P,X,LOCAL data;
 ```
 
 <div align="center">
@@ -229,12 +214,6 @@ Its direction is local-first enterprise AI for companies with sensitive data: pr
 - **Local inference** — Ollama, LM Studio, llama.cpp, GGUF and hardware-aware quantization.
 - **SAP agents** — controlled access to sales, inventory, operations and enterprise workflows.
 - **Production visibility** — traces, model/tool latency, tokens, errors and audit logs.
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/trinib/trinib/main/images/terminal.gif" width="430" alt="Animated hacker terminal" />
-
-</div>
 
 ### Current signal
 
